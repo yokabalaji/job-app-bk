@@ -14,43 +14,17 @@
 5.   API'S
         run post man for the api links:
     
-    1.   Create User API:
-           http://localhost:8080/api/calls/register/
+    1.   Create User API(Open api):
+                http://localhost:8080/api/v1/users
 
+    2.    Login User Login API (open Api):
+                http://localhost:8080/api/v1/login
 
-    2.    Login User API:
-            http://localhost:8080/api/calls/login
+    4.    Login User Post Jobs API:
+                http://localhost:8080/api/v1/jobs
 
-    3.    Refresh Token API:
-            http://localhost:8080/api/calls/refresh
+    5.    Login User find One Job API:
+                 http://localhost:8080/api/v1/jobs/688e28d1b913eb767f88645e(jobid)
 
-    4.    Login User Post Article API:
-            http://localhost:8080/api/calls/user/article/
-
-    5.    Login User Comment API:
-            http://localhost:8080/api/calls/user/comment/1(article number)
-  
-    6.    Login User Like API:
-            http://localhost:8080/api/calls/user/like/1(article number)
-
-    7.    Login User Rating API:
-            http://localhost:8080/api/calls/user/rating/1(article number)
-
-    8.    All Articles No Login API:
-            http://localhost:8080/api/calls/allarticle
-
-    9.    Current User Article API:
-            http://localhost:8080/api/calls/current/user/article
-
-   10.    Login Article List +Likes API:
-            http://localhost:8080/api/calls/current/user/articleLikes
-
-   11.    Login Articles List + Comments API:
-            http://localhost:8080/api/calls/current/user/articleComments
-
-   12.    Articles User+Comments+Likes+Ratings API:
-             http://localhost:8080/api/calls/allarticles/Likes/Comments/ratings
-
-   13.    Articles Likes+Comments API:
-             http://localhost:8080/api/calls/allarticles/Likes/Comments
-             
+    6.    Login User find All Jobs API:
+                 http://localhost:8080/api/v1/jobs
